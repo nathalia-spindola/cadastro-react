@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -5,37 +7,62 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+h1, h2 {
+  margin: 0.5em;
 }
 
-.card {
-  padding: 2em;
+h1 {
+  font-size: 3em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 
-.read-the-docs {
-  color: #888;
+h2 {
+  margin-bottom: 1.5em;
+  font-size: 2.2em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info {
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50em; 
+}
+
+input, select, option {
+  width: 25em;
+  height: 3em;
+  margin: 1em;
+  border-radius: 3em;
+  border: none;
+}
+
+input, select {
+  padding: 0 1.5em;
+}
+
+::placeholder {
+  color:rgb(181, 181, 181);
+  font-family: 'Roboto', sans-serif;
 }
