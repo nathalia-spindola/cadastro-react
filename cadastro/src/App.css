@@ -25,14 +25,14 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2.5em;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
 
 h2 {
   margin-bottom: 1.5em;
-  font-size: 2.2em;
+  font-size: 1.8em;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
@@ -47,15 +47,16 @@ div {
 .info {
   flex-direction: row;
   flex-wrap: wrap;
-  width: 50em; 
+  width: 40em; 
 }
 
 input, select, option {
-  width: 25em;
-  height: 3em;
+  width: 22em;
+  height: 2.6em;
   margin: 1em;
   border-radius: 3em;
   border: none;
+  font-size: 0.8em;   
 }
 
 input, select {
@@ -64,5 +65,4 @@ input, select {
 
 ::placeholder {
   color:rgb(181, 181, 181);
-  font-family: 'Roboto', sans-serif;
 }
